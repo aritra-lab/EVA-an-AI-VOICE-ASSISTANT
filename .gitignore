@@ -1,0 +1,35 @@
+
+# Python
+**/__pycache__/
+**/*.pyc
+**/venv/
+**/.venv/
+
+# Private environment files
+**/.env
+
+# Databases
+**/*.db
+**/*.sqlite3
+
+# Face recognition data
+**/owner_model.yml
+**/owner.jpg
+**/face_data/
+**/known_faces/
+**/face_profiles/
+**/owner_*.jpg
+
+# Flutter generated files
+eva_flutter/.dart_tool/
+eva_flutter/build/
+eva_flutter/.flutter-plugins
+eva_flutter/.flutter-plugins-dependencies
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+**/logs/
+*.log
