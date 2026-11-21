@@ -3,6 +3,14 @@
 
 EVA is a personal assistant project with two parts: a Python backend in the `EVA` folder and a Flutter user interface in the sibling `eva_flutter` folder. The backend listens for spoken commands, speaks its replies, and manages common desktop tasks, notes, reminders, and saved information. The Flutter frontend provides a chat interface and microphone control that communicate with the backend over its local HTTP API. Commands are matched by EVA's local command router first; unmatched questions are sent to the Groq-powered conversational assistant.
 
+## Copyright and Ownership
+
+Copyright © 2026 Aritra. All rights reserved.
+EVA (AI Voice Assistant) is a proprietary software project.
+The source code is published for public viewing and educational demonstration.
+No permission is granted to use, reproduce, modify, redistribute, or commercially exploit this software except where permitted by applicable law or an explicit written agreement from the copyright holder.
+For licensing or usage permissions, contact the copyright holder.
+
 ## Features
 
 - **Voice interaction:** Uses your microphone to recognize commands and speaks replies aloud with an English (India) neural voice.
